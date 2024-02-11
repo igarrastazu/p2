@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
-            Crimen organizado
+            ChefItUp!
         </title>
+        <link rel="stylesheet" href="estilos.css">
+        
     </head>
     <body>
-        <h1>hola mundo</h1>
+        <header>
+            <figure>
+                <a href="#home">
+                <img id ="logo_completo" src = "images/logo_ChefItUp_completo_png.png">
+                </a>
+            </figure>
+            </header>
+        
+        <nav>
+        <ul id = "barra_general" class="barra_navegacion">
+            <li><a href ="#mis_recetas">Mis Recetas</a></li>
+            <li><a href="#mis_menus">Mis menús</a></li>
+            <li><a href="#recetario_online">Recetario Online</a></li>
+            <li><a href="#lista_compra">Liste de la compra</a></li>
+            <li><a href="#mis_ingredientes">Mis Ingredientes</a></li>
+        
+        </ul>
+        </nav>
+        
+        <article class = "contenido">
+            <section class="display" id = "home">
+                <figure id = "imagen_recetas_ejemplo" >
+                    <img src="images/recetas_ejemplo.png">
+                </figure>
+                <p>
+                    <figure class = "cuadro_texto">
+                        Bienvenido a <img class = "imagen_texto" src = "images/logo_ChefItUp_completo_png.png"> <br><br>
+                        Empieza a crear tu experiencia chefitup! <br>
+                        Crea nuevas recetas, guárdalas y busca otras.<br>
+                        Haz tu lista de la compra y no olvides organizarte <br> 
+                        A cocinar!!
+                    </figure>
+                </p>
+            </section>
+            <section class = "display" id="mis_recetas">
+                <p> Estas son mis recetas </p>
+            </section>
+            <section class = "display" id="mis_menus">
+                <p> Estos son mis menus </p>
+            </section>
+            <section class = "display" id="recetario_online">
+                <p> Estas son recetas online </p>
+            </section>
+            <section class = "display" id="lista_compra">
+                <p> Esta es mi lista de la compra </p>
+            </section>
+            <section class = "display" id="mis_ingredientes">
+                <p> Estos son mis ingredientes </p>
+            </section>
+        </article>
+        
     </body>
 </html>
