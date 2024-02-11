@@ -10,13 +10,18 @@
     </head>
     <body>
         <header>
-            <figure>
-                <a href="#home">
-                <img id ="logo_completo" src = "images/logo_ChefItUp_completo_png.png" alt = "ChefItUp">
-                </a>
-            </figure>
+            <ul>
 
-            </header>
+                <li> <a href="iniciar_sesion.html" class="opciones_usuario"> Iniciar Sesión</a> &nbsp&nbsp</li>
+                <li> <a href="#" class="opciones_usuario"> Registrar nueva cuenta</a> </li>
+            </ul>
+            <a href="#home">
+            <figure>   
+                <img id ="logo_completo" src = "images/logo_ChefItUp_completo_png.png" alt = "ChefItUp">
+            </figure>
+            </a>
+
+        </header>
         
         <nav>
 
@@ -36,19 +41,31 @@
                     <img src="images/recetas_ejemplo.png" alt = "Imagen de Recetas">
                 </figure>
                 
-                    <figure class = "cuadro_texto">
+                    <fieldset class = "cuadro_texto" id ="cuadro_texto_bienvenida">
                     <p>
+                        
                         Bienvenido a <img class = "imagen_texto" src = "images/logo_ChefItUp_completo_png.png" alt = "ChefItUp"> <br><br>
-                        Empieza a crear tu experiencia chefitup! <br>
+                        
+                        Regístrate para empezar a crear tu experiencia chefitup! <br>
                         Crea nuevas recetas, guárdalas y busca otras.<br>
-                        Haz tu lista de la compra y no olvides organizarte <br> 
-                        A cocinar!!
+                        Haz tu lista de la compra y no olvides organizarte con menús mensuales <br> <br>
+                        Estás usando una versión de prueba, en la que tienes acceso a los paneles y a las recetas de prueba. <br>
+                        Muchas gracias por confiar en ChefItUp!
                     </p>
-                    </figure>
+                    </fieldset>
+                    
                 
             </section>
             <section class = "display" id="mis_recetas">
-                <p> Estas son mis recetas </p>
+                <h3> Recetas de ejemplo</h3>
+                <ul id = "lista_recetas">
+                    <li>
+                       <a href = "huevo_frito_con_patatas.html"> Huevo Frito con Patatas </a> 
+                    </li>
+                    <li>
+                        <a href="#"> Patatas Fritas</a>
+                    </li>
+                </ul> 
             </section>
             <section class = "display" id="mis_menus">
                 <p> Estos son mis menus </p>

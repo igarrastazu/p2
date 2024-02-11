@@ -1,35 +1,71 @@
+/* ESTILOS GENERALES */
+
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     background-color: #FDFFF4;
+}
+
+h3{
+    color: #6B8A47;
+}
+h2{
+    color:#F6C914;
 }
 
 img{
     max-width: 100%;
-    max-height: 100%;
     display: block;
+    object-fit:scale-down; /* Evita la deformación de la imagen */
+
 }
 figure {
     /*border: 5px solid ; */
     /*width: 250px;*/
+    display: flex;
     text-align: center;
     font-family: sans-serif;
 }
 p {
     /*border: 5px solid #6B8A47;*/
-    padding: 1rem;
+    width: 100%;
+    height: 100%;
 }
 
-header *{
-    display: flex;
+caption{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
     align-items: center;
     justify-content: center;
     max-height: 5rem;
+}
+
+.fijo{
+    position: absolute;
+}
+/* ESTILOS INDEX.HTML */
+header figure{ 
+    min-height: 3rem;
+    max-height: 4rem;
+}
+header ul {
+    display: flex;
+    font-size: small;
+    justify-content: flex-end;
+    list-style: none;
 
 }
 
+header li *{
+    color: #6B8A47;
+}
+
+
 .barra_navegacion {
     display: flex;
-    margin: 0;
     padding: 0;
 }
 
@@ -52,7 +88,7 @@ header *{
 
 
 .barra_navegacion li:hover{
-    background: #6b8a47a2;
+    background: #F6C914;
 }
 
 
@@ -60,14 +96,26 @@ header *{
     display: block;
 }
 
-.display{
-    display: none;
-    padding: 10px;
+.display#home:target{
+    display: flex;
+    align-self: center;
+    justify-items: center;
 }
 
+.display{
+    display: none;
+}
+
+
+
 #imagen_recetas_ejemplo{
-    width: 20em;
-    float: left;
+    flex : 1 1 0;
+}
+
+#cuadro_texto_bienvenida{
+    flex: 2 0 1;
+    padding-inline: 1rem;
+
 }
 
 .imagen_texto{
@@ -77,16 +125,21 @@ header *{
     width: 6rem;
 }
 
-.cuadro_texto {
-    border: 5px solid #6B8A47;
-    overflow: hidden; /* Sin esto el cuadro de texto ocupa tambien las fotos*/
 
+.cuadro_texto {
+    /* border: 5px solid #6B8A47; */
+    overflow: hidden; /* Sin esto el cuadro de texto ocupa tambien las fotos*/
 }
 
-@media (max-width: 700px){
+
+
+@media (max-width: 600px){
     .cuadro_texto{
         clear: both;
         width: 85%;
+    }
+    .display#home:target{
+        display: block;
     }
     #imagen_recetas_ejemplo{
         width: 90%;
@@ -94,4 +147,42 @@ header *{
     .barra_navegacion *{
         font-size: small;
     }
+}
+
+
+/*ESTILOS INICIAR_SESION.HTML */
+
+
+fieldset{
+    border: 5px solid #6B8A47;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    align-self: center;
+    max-width: 20rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 auto; /* centra el fieldset */
+}
+
+input{
+    flex: 1 0 0;
+    border: 3px solid#6B8A47;
+}
+fieldset button{
+    width: 15rem;
+    align-self: center;
+    background: none;
+    border: none;
+}
+
+fieldset button:hover{
+    filter: saturate(200%);
+}
+
+
+/* VER RECETA */
+
+#receta {
+    margin: 2rem;
 }
