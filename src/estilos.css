@@ -40,7 +40,7 @@ header {
     display: block;
     align-items: center;
     justify-content: center;
-    max-height: 5rem;
+    max-height: 6rem;
 }
 
 .fijo{
@@ -58,6 +58,7 @@ header ul {
     list-style: none;
 
 }
+
 
 header li *{
     color: #6B8A47;
@@ -82,7 +83,7 @@ header li *{
     width: 100%;
     height: 100%;
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
 }
 
@@ -97,9 +98,7 @@ header li *{
 }
 
 .display#home:target{
-    display: flex;
-    align-self: center;
-    justify-items: center;
+    
 }
 
 .display{
@@ -108,14 +107,18 @@ header li *{
 
 
 
-#imagen_recetas_ejemplo{
-    flex : 1 1 0;
+#imagen_recetas_ejemplo {
+    float: left;
+    padding-left: 10%;
+    max-width: 20rem;
+    
+    
+    
 }
 
 #cuadro_texto_bienvenida{
-    flex: 2 0 1;
     padding-inline: 1rem;
-
+    
 }
 
 .imagen_texto{
@@ -133,16 +136,18 @@ header li *{
 
 
 
-@media (max-width: 600px){
-    .cuadro_texto{
-        clear: both;
-        width: 85%;
-    }
+@media (max-width: 700px){
     .display#home:target{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
     }
-    #imagen_recetas_ejemplo{
-        width: 90%;
+    .display#home*{
+        display: flex;
+        flex: 1 0 0;
+        align-self: center;
+
     }
     .barra_navegacion *{
         font-size: small;
@@ -184,5 +189,34 @@ fieldset button:hover{
 /* VER RECETA */
 
 #receta {
+    display: block;
     margin: 2rem;
+    border: 5px solid #6B8A47;
+    padding: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  th {
+    padding-right: 20px;
+    text-align: left;
+    color: #F6C914;
+  }
+  td {
+    padding-right: 20px;
+    line-height: 2;
+  }
+  tr:nth-child(2n+1) > td {
+    background: #f6c91435
+  }
+  
+
+
+.foto_receta{
+    display: block;
+    float: right;
+    max-width:160px;
 }
