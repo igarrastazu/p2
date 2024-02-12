@@ -2,20 +2,22 @@
 
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    background-color: #FDFFF4;
+    background-color: #e77f3f09;
 }
 
 h3{
-    color: #6B8A47;
+    color: #5984E2;
+    margin: 1rem;
 }
 h2{
-    color:#F6C914;
+    color: #E7803F;
 }
 
 img{
     max-width: 100%;
     display: block;
     object-fit:scale-down; /* Evita la deformación de la imagen */
+    
 
 }
 figure {
@@ -27,8 +29,8 @@ figure {
 }
 p {
     /*border: 5px solid #6B8A47;*/
-    width: 100%;
-    height: 100%;
+    
+    margin: 2rem;
 }
 
 caption{
@@ -51,6 +53,10 @@ header figure{
     min-height: 3rem;
     max-height: 4rem;
 }
+header img{
+    flex: 1 1 0;
+}
+
 header ul {
     display: flex;
     font-size: small;
@@ -61,7 +67,7 @@ header ul {
 
 
 header li *{
-    color: #6B8A47;
+    color: #5984E2;
 }
 
 
@@ -73,7 +79,7 @@ header li *{
 .barra_navegacion li{
     display : flex;
     flex : 1 0 0;
-    background-color: #6B8A47;
+    background-color: #5984E2;
 }
 
 .barra_navegacion a{
@@ -89,7 +95,7 @@ header li *{
 
 
 .barra_navegacion li:hover{
-    background: #F6C914;
+    background: #E7803F;
 }
 
 
@@ -97,19 +103,25 @@ header li *{
     display: block;
 }
 
-.display#home:target{
-    
-}
 
 .display{
     display: none;
 }
 
+#nuestros_robots ul li {
+    color: #E7803F;
+}
+
+#nuestros_robots ul li *{
+    color: #5984E2;
+}
 
 
-#imagen_recetas_ejemplo {
+
+#foto_inicio {
+    border:5px solid #5984E2;
     float: left;
-    padding-left: 10%;
+    margin-left: 10%;
     max-width: 20rem;
     
     
@@ -136,6 +148,7 @@ header li *{
 
 
 
+
 @media (max-width: 700px){
     .display#home:target{
         display: flex;
@@ -159,7 +172,7 @@ header li *{
 
 
 fieldset{
-    border: 5px solid #6B8A47;
+    border: 5px solid #E7803F;
     display: flex;
     flex-direction: column;
     padding: 10%;
@@ -172,7 +185,7 @@ fieldset{
 
 input{
     flex: 1 0 0;
-    border: 3px solid#6B8A47;
+    border: 3px solid#5984E2;
 }
 fieldset button{
     width: 15rem;
@@ -182,20 +195,15 @@ fieldset button{
 }
 
 fieldset button:hover{
-    filter: saturate(200%);
+    filter: saturate(400%);
 }
 
 
-/* VER RECETA */
+/*  Ver robot */
 
-#receta {
-    display: block;
-    margin: 2rem;
-    border: 5px solid #6B8A47;
-    padding: 1rem;
-}
 
 table {
+    
     border-collapse: collapse;
     border-spacing: 0;
   }
@@ -203,20 +211,36 @@ table {
   th {
     padding-right: 20px;
     text-align: left;
-    color: #F6C914;
+    color: #E7803F;
   }
   td {
     padding-right: 20px;
     line-height: 2;
   }
+  td *{
+    max-width: 6rem;
+  }
   tr:nth-child(2n+1) > td {
-    background: #f6c91435
+    background: #e77f3f27;
   }
   
 
 
-.foto_receta{
+.foto_robot{
     display: block;
     float: right;
     max-width:160px;
+    border: 5px solid #5984e2;
+    margin-top: 2rem;
+    
+}
+
+#nacimiento{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+select{
+    border: 3px solid #5984e2;
+    height: 2rem;
 }
