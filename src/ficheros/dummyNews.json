@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 1000,
+    "articles": [
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "finanzen.net",
+            "title": "NASDAQ-Titel NVIDIA-Aktie mit Kursfeuerwerk: So weit kann es laut Experten für die NVIDIA-Aktie noch gehen - finanzen.net",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiiQFodHRwczovL3d3dy5maW5hbnplbi5uZXQvbmFjaHJpY2h0L2FrdGllbi9uYWNoLXF1YXJ0YWxzemFobGVuLXJla29yZGphZ2Qtc28tc2NoYWV0emVuLWFuYWx5c3Rlbi1kaWUtenVrdW5mdC1kZXItbnZpZGlhLWFrdGllLWVpbi0xMzI4NTMyNdIBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T14:37:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "CHIP Online Deutschland",
+            "title": "Finanzielle Schieflage: Discounter muss Filialen schließen und Sortiment ändern - CHIP Online Deutschland",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMif2h0dHBzOi8vd3d3LmNoaXAuZGUvbmV3cy9EaXNjb3VudGVyLWluLWZpbmFuemllbGxlci1TY2hpZWZsYWdlLUZpbGlhbGVuLW11ZXNzZW4tc2NobGllc3Nlbi11bmQtU29ydGltZW50LWFlbmRlcm5fMTg1MTQxMzY0Lmh0bWzSAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T14:24:22Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "LA NACION",
+            "title": "Trucos de Google: cuatro infalibles para liberar almacenamiento y memoria de los teléfonos Android - LA NACION",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMilQFodHRwczovL3d3dy5sYW5hY2lvbi5jb20uYXIvdGVjbm9sb2dpYS90cnVjb3MtZGUtZ29vZ2xlLWN1YXRyby1pbmZhbGlibGVzLXBhcmEtbGliZXJhci1hbG1hY2VuYW1pZW50by15LW1lbW9yaWEtZGUtbG9zLXRlbGVmb25vcy1hbmRyb2lkLW5pZDIzMDIyMDI0L9IBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T14:16:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "stock3 Börsennews",
+            "title": "stock3 US-Ausblick - Holt der Nasdaq das Allzeithoch heute nach? - stock3 Börsennews",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vc3RvY2szLmNvbS9uZXdzL3N0b2NrMy11cy1hdXNibGljay1ob2x0LWRlci1uYXNkYXEtZGFzLWFsbHplaXRob2NoLWhldXRlLW5hY2gtMTQxOTA0ODjSAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T14:10:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Estrategias de inversión",
+            "title": "Walmart realizará por primera vez un Split de acciones de 3 por 1 - Estrategias de inversión",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMifGh0dHBzOi8vd3d3LmVzdHJhdGVnaWFzZGVpbnZlcnNpb24uY29tL2FjdHVhbGlkYWQvbm90aWNpYXMvYm9sc2EtZWV1dS93YWxtYXJ0LXJlYWxpemFyYS1wb3ItcHJpbWVyYS12ZXotdW4tc3BsaXQtZGUtbi02OTE1MznSAWFodHRwczovL3d3dy5lc3RyYXRlZ2lhc2RlaW52ZXJzaW9uLmNvbS9hbXAvd2FsbWFydC1yZWFsaXphcmEtcG9yLXByaW1lcmEtdmV6LXVuLXNwbGl0LWRlLW4tNjkxNTM5?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T14:10:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "infobae",
+            "title": "Otro golpe al bolsillo: los bancos comunicaron un fuerte aumento en sus comisiones - infobae",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMifmh0dHBzOi8vd3d3LmluZm9iYWUuY29tL2Vjb25vbWlhLzIwMjQvMDIvMjMvb3Ryby1nb2xwZS1hbC1ib2xzaWxsby1sb3MtYmFuY29zLWNvbXVuaWNhcm9uLXVuLWZ1ZXJ0ZS1hdW1lbnRvLWVuLXN1cy1jb21pc2lvbmVzL9IBkgFodHRwczovL3d3dy5pbmZvYmFlLmNvbS9lY29ub21pYS8yMDI0LzAyLzIzL290cm8tZ29scGUtYWwtYm9sc2lsbG8tbG9zLWJhbmNvcy1jb211bmljYXJvbi11bi1mdWVydGUtYXVtZW50by1lbi1zdXMtY29taXNpb25lcy8_b3V0cHV0VHlwZT1hbXAtdHlwZQ?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T14:08:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "UOL Economia",
+            "title": "Quem é a gigante desconhecida Nvidia e por que ela vale R$ 10 trilhões - UOL Economia",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMigQFodHRwczovL2Vjb25vbWlhLnVvbC5jb20uYnIvbm90aWNpYXMvcmVkYWNhby8yMDI0LzAyLzIzL3F1ZW0tZS1naWdhbnRlLWRlc2NvbmhlY2lkYS1hLW52aWRpYS1lLXBvci1xdWUtZWxhLXZhbGUtci0xMC10cmlsaG9lcy5odG3SAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T14:01:04Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "FRANCE 24 Español",
+            "title": "La política antimigrantes de Italia favorece el trabajo forzado, según el Consejo de Europa - FRANCE 24 Español",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMimQFodHRwczovL3d3dy5mcmFuY2UyNC5jb20vZXMvbWludXRvLWEtbWludXRvLzIwMjQwMjIzLWxhLXBvbCVDMyVBRHRpY2EtYW50aW1pZ3JhbnRlcy1kZS1pdGFsaWEtZmF2b3JlY2UtZWwtdHJhYmFqby1mb3J6YWRvLXNlZyVDMyVCQW4tZWwtY29uc2Vqby1kZS1ldXJvcGHSAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:47:06Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Estrategias de inversión",
+            "title": "El Dow Jones, el S&P 500 y el Nasdaq, a la conquista de máximos históricos - Estrategias de inversión",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMigAFodHRwczovL3d3dy5lc3RyYXRlZ2lhc2RlaW52ZXJzaW9uLmNvbS9hY3R1YWxpZGFkL25vdGljaWFzL2JvbHNhLWVldXUvZWwtZG93LWpvbmVzLWVsLXNwLTUwMC15LWVsLW5hc2RhcS1hLWxhLWNvbnF1aXN0YS1uLTY5MTU4MdIBZWh0dHBzOi8vd3d3LmVzdHJhdGVnaWFzZGVpbnZlcnNpb24uY29tL2FtcC9lbC1kb3ctam9uZXMtZWwtc3AtNTAwLXktZWwtbmFzZGFxLWEtbGEtY29ucXVpc3RhLW4tNjkxNTgx?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:40:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Cinco Días",
+            "title": "La SEC discute 12.000 millones clasificados por Coca-Cola EP como activos intangibles - Cinco Días",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiemh0dHBzOi8vY2luY29kaWFzLmVscGFpcy5jb20vY29tcGFuaWFzLzIwMjQtMDItMjMvY29jYS1jb2xhLWV1cm9wYWNpZmljLXBhcnRuZXJzLWdhbm8tMTY2OS1taWxsb25lcy1lbi0yMDIzLXVuLTk1LW1hcy5odG1s0gGJAWh0dHBzOi8vY2luY29kaWFzLmVscGFpcy5jb20vY29tcGFuaWFzLzIwMjQtMDItMjMvY29jYS1jb2xhLWV1cm9wYWNpZmljLXBhcnRuZXJzLWdhbm8tMTY2OS1taWxsb25lcy1lbi0yMDIzLXVuLTk1LW1hcy5odG1sP291dHB1dFR5cGU9YW1w?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:38:33Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Kleine Zeitung",
+            "title": "Erlöse von fast 1,5 Milliarden Euro: Mobilfunker Magenta verbucht kräftiges Plus bei Umsatz und Ergebnis - Kleine Zeitung",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMidWh0dHBzOi8vd3d3LmtsZWluZXplaXR1bmcuYXQvd2lydHNjaGFmdC8xODIwMzQ2MS9tb2JpbGZ1bmtlci1tYWdlbnRhLXZlcmJ1Y2h0LWtyYWVmdGlnZXMtcGx1cy1iZWktdW1zYXR6LXVuZC1lcmdlYm5pc9IBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:38:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "InfoMoney",
+            "title": "Vale (VALE3): mais um resultado forte mostra o que tem realmente movido as ações em 2024 - InfoMoney",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMijgFodHRwczovL3d3dy5pbmZvbW9uZXkuY29tLmJyL21lcmNhZG9zL3ZhbGUtdmFsZTMtbWFpcy11bS1yZXN1bHRhZG8tZm9ydGUtbW9zdHJhLW8tcXVlLXRlbS1yZWFsbWVudGUtbW92aWRvLWFzLWFjb2VzLWVtLTIwMjQtZGVzZW1wZW5oby1hdGl2b3Mv0gGSAWh0dHBzOi8vd3d3LmluZm9tb25leS5jb20uYnIvbWVyY2Fkb3MvdmFsZS12YWxlMy1tYWlzLXVtLXJlc3VsdGFkby1mb3J0ZS1tb3N0cmEtby1xdWUtdGVtLXJlYWxtZW50ZS1tb3ZpZG8tYXMtYWNvZXMtZW0tMjAyNC1kZXNlbXBlbmhvLWF0aXZvcy9hbXAv?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:37:18Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "FRANCE 24 Español",
+            "title": "Airbus y Boeing, en apuros para entregar sus aviones en los plazos previstos - FRANCE 24 Español",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMigAFodHRwczovL3d3dy5mcmFuY2UyNC5jb20vZXMvbWludXRvLWEtbWludXRvLzIwMjQwMjIzLWFpcmJ1cy15LWJvZWluZy1lbi1hcHVyb3MtcGFyYS1lbnRyZWdhci1zdXMtYXZpb25lcy1lbi1sb3MtcGxhem9zLXByZXZpc3Rvc9IBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:37:07Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "La Tercera",
+            "title": "Changan renueva a la Hunter en China con ideas bastante interesantes - La Tercera",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiiwFodHRwczovL3d3dy5sYXRlcmNlcmEuY29tL210b25saW5lL25vdGljaWEvY2hhbmdhbi1yZW51ZXZhLWEtbGEtaHVudGVyLWVuLWNoaW5hLWNvbi1pZGVhcy1iYXN0YW50ZS1pbnRlcmVzYW50ZXMvSkFRN0tXNTdSVkVSM09FWTZLN1hYTlRBSjQv0gGaAWh0dHBzOi8vd3d3LmxhdGVyY2VyYS5jb20vbXRvbmxpbmUvbm90aWNpYS9jaGFuZ2FuLXJlbnVldmEtYS1sYS1odW50ZXItZW4tY2hpbmEtY29uLWlkZWFzLWJhc3RhbnRlLWludGVyZXNhbnRlcy9KQVE3S1c1N1JWRVIzT0VZNks3WFhOVEFKNC8_b3V0cHV0VHlwZT1hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:31:11Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "DER STANDARD",
+            "title": "Web- und Games-News: Woran der Glasfaserausbau in österreichischen Ballungszentren scheitert - DER STANDARD",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiigFodHRwczovL3d3dy5kZXJzdGFuZGFyZC5hdC9zdG9yeS8zMDAwMDAwMjA4ODIyL3dlYi11bmQtZ2FtZXMtbmV3cy13b3Jhbi1kZXItZ2xhc2Zhc2VyYXVzYmF1LWluLW9lc3RlcnJlaWNoaXNjaGVuLWJhbGx1bmdzemVudHJlbi1zY2hlaXRlcnTSAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:29:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Kleine Zeitung",
+            "title": "Aktie der AUA-Mutter unter Druck: Turbulente Tage bei der Lufthansa: Beben im Vorstand und neue Streikgefahr - Kleine Zeitung",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMibWh0dHBzOi8vd3d3LmtsZWluZXplaXR1bmcuYXQvd2lydHNjaGFmdC8xODIwMzM4My90dXJidWxlbnRlLXRhZ2UtYmVpLWRlci1sdWZ0aGFuc2EtYmViZW4taW0tdm9yc3RhbmQtdW5kLW5ldWXSAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:28:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "ámbito.com",
+            "title": "Caídas en la industria cripto: Bitcoin pierde los u$s51.000 y Ethereum perfora los u$s3.000 - ámbito.com",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMifGh0dHBzOi8vd3d3LmFtYml0by5jb20vZmluYW56YXMvY2FpZGFzLWxhLWluZHVzdHJpYS1jcmlwdG8tYml0Y29pbi1waWVyZGUtbG9zLXVzNTEwMDAteS1ldGhlcmV1bS1wZXJmb3JhLWxvcy11czMwMDAtbjU5NTIwOTjSAXxodHRwczovL3d3dy5hbWJpdG8uY29tL2ZpbmFuemFzL2NhaWRhcy1sYS1pbmR1c3RyaWEtY3JpcHRvLWJpdGNvaW4tcGllcmRlLWxvcy11czUxMDAwLXktZXRoZXJldW0tcGVyZm9yYS1sb3MtdXMzMDAwLW41OTUyMDk4?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:25:15Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "AS Chile",
+            "title": "Cambio de peso argentino a peso chileno hoy, 23 de febrero: valor, precio, qué es y a cuánto está el dólar blu - AS Chile",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMijgFodHRwczovL2NoaWxlLmFzLmNvbS9hY3R1YWxpZGFkL2NhbWJpby1kZS1wZXNvLWFyZ2VudGluby1hLXBlc28tY2hpbGVuby1ob3ktMjMtZGUtZmVicmVyby12YWxvci1wcmVjaW8tcXVlLWVzLXktYS1jdWFudG8tZXN0YS1lbC1kb2xhci1ibHVlLW4v0gGdAWh0dHBzOi8vY2hpbGUuYXMuY29tL2FjdHVhbGlkYWQvY2FtYmlvLWRlLXBlc28tYXJnZW50aW5vLWEtcGVzby1jaGlsZW5vLWhveS0yMy1kZS1mZWJyZXJvLXZhbG9yLXByZWNpby1xdWUtZXMteS1hLWN1YW50by1lc3RhLWVsLWRvbGFyLWJsdWUtbi8_b3V0cHV0VHlwZT1hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:13:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Car & Motor",
+            "title": "Ξέσπασε πόλεμος τιμών -Αυτό είναι το αυτοκίνητο που απειλεί την Ευρώπη και κοστίζει 12.800 ευρώ | carandmotor.gr - Car & Motor",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiSmh0dHBzOi8vd3d3LmNhcmFuZG1vdG9yLmdyL25lYS9heXRvLWVpbmFpLW1vbnRlbG8tcG95LXRoYS1wYXJhbWVyaXNlaS1nb2xm0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:11:04Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "INVERTIA",
+            "title": "El BCE afirma que el bitcoin \"ha fracasado\" como moneda y su valor \"sigue siendo cero\" - INVERTIA",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiigFodHRwczovL3d3dy5lbGVzcGFub2wuY29tL2ludmVydGlhL21lcmNhZG9zL2NyaXB0b21vbmVkYXMvMjAyNDAyMjMvYmNlLWFmaXJtYS1iaXRjb2luLWZyYWNhc2Fkby1tb25lZGEtZGlnaXRhbC12YWxvci1jZXJvLzgzNDkxNjc4NV8wLmh0bWzSAY4BaHR0cHM6Ly93d3cuZWxlc3Bhbm9sLmNvbS9pbnZlcnRpYS9tZXJjYWRvcy9jcmlwdG9tb25lZGFzLzIwMjQwMjIzL2JjZS1hZmlybWEtYml0Y29pbi1mcmFjYXNhZG8tbW9uZWRhLWRpZ2l0YWwtdmFsb3ItY2Vyby84MzQ5MTY3ODVfMC5hbXAuaHRtbA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-02-23T13:10:30Z",
+            "content": null
+        }
+    ]
+}

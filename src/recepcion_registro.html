@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <script>
+            // Obtener los parámetros de la URL (en el caso de un formulario GET)
+            const urlParams = new URLSearchParams(window.location.search);
+            const nombre = urlParams.get('username');
+            const password= urlParams.get('password');
+            const nacimiento = urlParams.get('nacimiento');
+            const genero= urlParams.get('genero');
+            
+            // Mostrar los datos recuperados en la página
+            document.body.innerHTML = `
+              <h1>Ejemplo PAT - Datos del formulario enviado:</h1>
+              <h2>Datos personales:</h2>
+              <p>Nombre: ${nombre}</p>
+              <p>Contraseña (súper seguro esto): ${password}</p>
+              <p>Fecha de Nacimiento: ${nacimiento}</p>
+              <p>Género: ${geberi}</p>
+
+            `;
+          </script>
+    </body>
+</HTML>

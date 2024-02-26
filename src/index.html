@@ -3,21 +3,20 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
-            RoboCare
+            El Quiosco
         </title>
-        <link rel="stylesheet" href="estilos.css">
-        
+        <link rel="stylesheet" href="ficheros/estilos.css">
     </head>
     <body>
+
         <header>
             <ul>
-
                 <li> <a href="iniciar_sesion.html" class="opciones_usuario"> Iniciar Sesión</a> &nbsp;&nbsp; </li>
                 <li> <a href="registrar_cuenta.html" class="opciones_usuario"> Registrar nueva cuenta</a> </li>
             </ul>
             <a href="#home">
             <figure>   
-                <img id ="logo_completo" src = "images/robocare.png" alt = "RoboCare">
+                <img id ="logo_completo" src = "images/el_quiosco_logo.png" alt = "El Quiosco">
             </figure>
             </a>
 
@@ -26,8 +25,20 @@
         <nav>
 
         <ul id = "barra_general" class="barra_navegacion">
-            <li><a href ="#nuestros_robots">Nuestros Robots</a></li>
-            <li><a href="#tarifas">Tarifas</a></li>
+            <li>
+                <a id = "link_noticias" href ="#noticias">Noticias</a>
+                <ul class="submenu">
+                    
+                    <li><a id = "link_economia" href="#economia">Economía</a></li>
+                    <li><a id = "link_entretenimiento" href="#entretenimiento">Entretenimiento</a></li>
+                    <li><a id = "link_salud" href="#salud">Salud</a></li>
+                    <li><a id = "link_ciencia" href="#ciencia">Ciencia</a></li>
+                    <li><a id = "link_deporte" href="#deporte">Deporte</a></li>
+                    <li><a id = "link_tecnologia" href="#tecnologia">Tecnología</a></li>
+                  </ul>
+            </li>
+
+            <li><a href="#pasatiempos">Pasatiempos</a></li>
             <li><a href="#contacto_empresa">Contacta con nosotros</a></li>
             <li><a href="#informacion_empresa">¿Quienes somos?</a></li>
         
@@ -37,116 +48,88 @@
         <article class = "contenido">
             <section class="display" id = "home">
                 <figure id = "foto_inicio" >
-                    <img src="images/foto_inicio.jpg" alt = "Imagen robocare">
+                    <img src="images/kiosko.webp" alt = "Periodicos">
                 </figure>
                 
                     <fieldset class = "cuadro_texto" id ="cuadro_texto_bienvenida">
                     <p>
-                        RoboCare es una empresa pionera en el diseño y desarrollo de robots 
-                        con inteligencia artificial, destinados a brindar asistencia y compañía 
-                        a personas que enfrentan diversas necesidades, ya sean adultos mayores 
-                        en busca de compañía o individuos con discapacidades que requieren apoyo 
-                        adicional en su vida diaria. <br><br>
-                        Con un enfoque centrado en la innovación y la 
-                        atención personalizada, nuestro objetivo es mejorar la calidad de vida de 
-                        nuestros usuarios a través de soluciones tecnológicas 
-                        avanzadas y orientadas al bienestar humano.
+                        Bienvenido a El Quiosco, tu destino digital para explorar una amplia gama de temas y opiniones 
+                        provenientes de diversos periódicos. <br> <br>En un mundo saturado de información, nuestra plataforma 
+                        se destaca por reunir artículos de diferentes fuentes, ofreciéndote una experiencia enriquecedora 
+                        y diversa. Desde política hasta ciencia, pasando por cultura y deportes, nuestro objetivo es 
+                        proporcionarte acceso a una variedad de perspectivas y análisis para que puedas formarte una visión 
+                        completa de los acontecimientos actuales. 
                     </p>
                     </fieldset>
                     
                 
             </section>
-            <section class = "display" id="nuestros_robots">
-                <p>
-                    
-            En RoboCare, ofrecemos una amplia gama de robots diseñados para satisfacer diversas necesidades y preferencias. 
-            Nuestra selección incluye robots versátiles que pueden adaptarse a diferentes entornos y situaciones. Cada uno de nuestros robots está equipado con tecnología de inteligencia artificial de vanguardia y características personalizables para satisfacer las necesidades específicas de nuestros clientes.
-                </p>
-                <h3> Nuestros Robots</h3>
-                <ul id = "lista_robots">
-                    <li>
-                       <a href = "robocare_companion.html"> RoboCare Companion </a> 
-                    </li>
-                    <li>
-                        <a href="#"> RoboCare Low-Movility </a>
-                    </li>
-                    <li>
-                        <a href="#"> HouseCare </a>
-                    </li>
-                    <li>
-                        <a href="#"> RoboCare Complete </a>
-                    </li>
-                </ul> 
-                <h3> Ingredientes:</h3>
-                <table>  
-                    <thead>
-                        <tr>
-                        <th> RoboCare Modelo </th>
-                        <th> Inteligencia Artificial </th>
-                        <th> Cocina</th>
-                        <th> Limpieza </th>
-                        <th> Ayuda a discapacidades </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>RoboCare Companion</td>
-                            <td> <img src = "images/heart.png" alt = "si"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>RoboCare Low-Movility</td>
-                            <td> <img src = "images/heart.png" alt = "si"></td>
-                            <td></td>
-                            <td><img src = "images/heart.png" alt = "si"></td>
-                            <td><img src = "images/heart.png" alt = "si"></td>
-                        </tr>
-                        <tr>
-                            <td>HouseCare</td>
-                            <td> <img src = "images/heart.png" alt = "si"></td>
-                            <td><img src = "images/heart.png" alt = "si"></td>
-                            <td><img src = "images/heart.png" alt = "si"></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>RoboCare Complete</td>
-                            <td> <img src = "images/heart.png" alt = "si"></td>
-                            <td><img src = "images/heart.png" alt = "si"></td>
-                            <td><img src = "images/heart.png" alt = "si"></td>
-                            <td> <img src = "images/heart.png" alt = "si"></td>
-                        </tr>
-                    </tbody>
-                    
-                </table>
+            <section class = "display" id="noticias">
+                <h2> Todas las noticias</h2>
+                <p> En esta sección puedes acceder a los mejores artículos del último mes.</p>
             </section>
-            <section class = "display" id="tarifas">
-                <p> Estos son las tarifas </p>
+
+            <!-- Submenús -->
+                <section class = "display" id="economia">
+                    <h2> Economía</h2>
+                    <p> En esta sección puedes acceder a los mejores artículos del último mes relacionados con la economía.</p>
+                </section>
+
+                <section class = "display" id="entretenimiento">
+                    <h2> Entretenimiento</h2>
+                    <p> En esta sección puedes acceder a los mejores artículos del último mes relacionados con entretenimiento.</p>
+                </section>
+
+                <section class = "display" id="salud">
+                    <h2> Salud</h2>
+                    <p> En esta sección puedes acceder a los mejores artículos del último mes relacionados con la salud.</p>
+                </section>
+
+                <section class = "display" id="ciencia">
+                    <h2> Ciencia</h2>
+                    <p> En esta sección puedes acceder a los mejores artículos del último mes relacionados con la ciencia.</p>
+                </section>
+
+                <section class = "display" id="deporte">
+                    <h2> Deporte</h2>
+                    <p> En esta sección puedes acceder a los mejores artículos del último mes relacionados con deportes.</p>
+                </section>
+
+                <section class = "display" id="tecnologia">
+                    <h2> Tecnología</h2>
+                    <p> En esta sección puedes acceder a los mejores artículos del último mes relacionados con la tecnología.</p>
+                </section>
+            
+            <section class = "display" id="pasatiempos">
+                <p> Esta versión de El Quiosco aún no cuenta con pasatiempos, pero puede disfrutar de el siguiente vídeos para
+                    mejorar su habilidad haciéndolos: </p>
+                <figure class = "video">
+                <iframe src ="https://www.youtube.com/embed/gHKAxi9EIso"></iframe>
+                </figure>
             </section>
             <section class = "display" id="contacto_empresa">
-                <p> Estas son los contactos </p>
+                <figure id = "contacta">
+                    <h3> ¿Necesitas ayuda o tienes alguna pregunta? ¡No dudes en contactarnos!</h3>
+                    <p>
+
+                        En "El Quiosco", nuestro compromiso es ofrecerte la mejor experiencia posible. Si necesitas ayuda para navegar por nuestra plataforma o tienes alguna pregunta sobre nuestros servicios, nuestro equipo está aquí para ayudarte. No dudes en ponerte en contacto con nosotros en cualquier momento. Estamos aquí para brindarte el apoyo y la asistencia que necesites para sacar el máximo provecho de tu experiencia con "El Quiosco". ¡Esperamos poder servirte pronto!</p>
+                <form action="" method="get">
+                <label>Introduce tu correo electrónico </label> <br>
+                <textarea class="form-control" id="correo" name="correo" rows="1" maxlength="200" required></textarea>
+                <br> <br> <label for="cuerpo" class="form-label">Pregúntanos algo</label>
+            <textarea class="form-control" placeholder="Máximo 220 caracteres" id="cuerpo" name="cuerpo" rows="3" maxlength="220" required></textarea>
+            <figure class = "link_page" type="submit"> <button id = "envio_pregunta_button"><img src = images/periodico.png alt="Enviar Pregunta"> </button></figure>    
+        </form>
+        </figure>
             </section>
             <section class = "display" id="informacion_empresa">
+                <h2>El Origen de "El Quiosco" </h2>
                 <p> 
-                    Fundada en 2018 por un equipo visionario de ingenieros y 
-                    expertos en inteligencia artificial, RoboCare surgió con 
-                    la misión de abordar las necesidades de las personas mayores 
-                    y discapacitadas mediante la innovación tecnológica. <br> <br>
-                    Inspirados por el potencial transformador de la inteligencia 
-                    artificial, el equipo de RoboCare se dedicó a desarrollar 
-                    robots con capacidades avanzadas para proporcionar compañía, 
-                    asistencia y cuidado personalizado. A lo largo de los años, 
-                    la empresa ha experimentado un crecimiento significativo, 
-                    expandiendo su alcance y perfeccionando sus productos para 
-                    satisfacer las demandas cambiantes del mercado. Con un 
-                    compromiso inquebrantable con la excelencia y el bienestar 
-                    de sus usuarios, RoboCare continúa liderando el camino en el 
-                    campo de la robótica orientada al cuidado y la asistencia 
-                    humanos. </p>
+                "El Quiosco" nació de la visión de un estudiante del Instituto de Ingeniería del Conocimiento y la Academia de Informática (ICAI), decidido a crear una plataforma innovadora para satisfacer las necesidades informativas de la sociedad moderna. Con el espíritu emprendedor y la pasión por la tecnología como impulso, este joven programador se propuso desarrollar un proyecto que transformaría la forma en que las personas acceden a la información.
+                <br> <br> El proyecto cobró vida a principios de este año, cuando este estudiante, imbuido de conocimientos técnicos y una profunda comprensión de las necesidades del mercado, se propuso desarrollar una plataforma digital que centralizara y diversificara el acceso a noticias de diversos periódicos. Inspirado por la idea de crear un "quiosco" virtual donde los usuarios pudieran encontrar una amplia gama de artículos y opiniones sobre una variedad de temas, nació la empresa "El Quiosco".</p>
             </section>
 
         </article>
-        
+        <script src ="ficheros/ficheroJavascript.js"> </script>
     </body>
 </html>
