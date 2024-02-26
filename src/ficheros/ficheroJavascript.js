@@ -113,39 +113,39 @@ const linkTecnologia = document.getElementById("link_tecnologia");
 
 
 linkNoticias.addEventListener('click', event => {
-    //getNews('general', 'noticias');
-    paintNews(newsProxy, 'noticias');
+    getNews('general', 'noticias');
+    //paintNews(newsProxy, 'noticias');
 });
 
 linkEconomia.addEventListener('click', event => {
-    //getNews('business', 'economia');
-    paintNews(newsProxy, 'economia');
+    getNews('business', 'economia');
+    //paintNews(newsProxy, 'economia');
 });
 
 linkEntretenimiento.addEventListener('click', event => {
-    //getNews('entertainment', 'entretenimiento');
-    paintNews(newsProxy, 'entretenimiento');
+    getNews('entertainment', 'entretenimiento');
+    //paintNews(newsProxy, 'entretenimiento');
 });
 
 
 linkSalud.addEventListener('click', event => {
-    //getNews('health', 'salud');
-    paintNews(newsProxy, 'salud');
+    getNews('health', 'salud');
+    //paintNews(newsProxy, 'salud');
 });
 
 linkCiencia.addEventListener('click', event => {
-    //getNews('science', 'ciencia');
-    paintNews(newsProxy,'ciencia');
+    getNews('science', 'ciencia');
+    //paintNews(newsProxy,'ciencia');
 });
 
 linkDeporte.addEventListener('click', event => {
-    //getNews('sports', 'deporte');
-    paintNews(newsProxy,'deporte');
+    getNews('sports', 'deporte');
+    //paintNews(newsProxy,'deporte');
 });
 
 linkTecnologia.addEventListener('click', event => {
-    //getNews('technology', 'tecnologia');
-    paintNews(newsProxy,'tecnologia');
+    getNews('technology', 'tecnologia');
+    //paintNews(newsProxy,'tecnologia');
 });
 
 // ["business", "entertainment", "general", "health", "science", "sports", "technology"];
