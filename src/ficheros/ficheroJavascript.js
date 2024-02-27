@@ -225,7 +225,7 @@ const paintJuego = function(json){
         respuestas.push(allAnswers);
         for(let j=0; j < allAnswers.length; j++){
             areaJuego.innerHTML += `
-            <input class= "checkbox_true_false" type="radio" id="respuesta${i+1}${j+1}" name="respuesta${i+1}" value="${allAnswers[j]}"> ${allAnswers[j]}</input>`;
+            <input class= "checkbox_true_false" type="radio" id="respuesta${i+1}${j+1}" name="respuesta${i+1}" value="${allAnswers[j]}"> ${allAnswers[j]}`;
 
         }
         areaJuego.innerHTML += `
