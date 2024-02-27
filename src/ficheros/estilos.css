@@ -174,15 +174,41 @@ header li *{
     display: block;
 }
 
-.link_page{
+button{
     width: 6rem;
     padding-bottom: 1rem;
     padding-top: 0rem;
     margin: 1rem auto;
 }
 
-.link_page img:hover{
+.boton_periodico img:hover{
     filter: saturate(200%);
+}
+.boton_corregir img:hover{
+    filter: saturate(200%);
+}
+
+#seleccionar_preguntas {
+    margin: 3rem;
+}
+
+#seleccionar_preguntas input, select{
+    min-width: 15rem;
+}
+
+.pregunta_trivia *{
+    display: flex;
+}
+
+#end_trivia_button{
+    background: none;
+    border: none;
+    width: 2000rem;
+}
+
+#figure_corregir{
+    width: 9rem;
+    margin: 0 auto;
 }
 
 #contacta{
@@ -204,7 +230,7 @@ header li *{
     height: 5rem;
 }
 
-#envio_pregunta_button{
+.boton_periodico{
     background:none;
     border: none;
 }
@@ -232,6 +258,9 @@ header li *{
     }
 }
 
+#area_preguntas{
+    display: block;
+}
 
 /*ESTILOS INICIAR_SESION.HTML Y REGISTRO */
 
@@ -271,4 +300,8 @@ fieldset button:hover{
 
 #nacimiento{
     padding: 0.75rem;
+}
+
+#end_trivia_button{
+    display: none;
 }

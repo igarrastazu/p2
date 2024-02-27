@@ -100,9 +100,50 @@
                     <p> En esta sección puedes acceder a los mejores artículos del último mes relacionados con la tecnología.</p>
                 </section>
             
-            <section class = "display" id="pasatiempos">
-                <p> Esta versión de El Quiosco aún no cuenta con pasatiempos, pero puede disfrutar de el siguiente vídeos para
-                    mejorar su habilidad haciéndolos: </p>
+            <section class = "display" id="pasatiempos" >
+                <h2>Trivia</h2>
+                <p> ¡Bienvenido al trivia de El Quiosco! <br>
+                Selecciona tu configuración favorita y haz click al botón. </p>
+                <form method="get" id="seleccionar_preguntas">
+                <h3> Número de preguntas</h3>
+                <input type="number" id = "numero" name="numero" max="50" min="0" onkeydown="return validarEntrada(event)"> </input>
+                <h3> Categoría</h3>
+                <select id="categoria" name = "categoria">
+                    <option value="all"> Todas</option>
+                    <option value="9"> Cultura general</option>
+                    <option value="10"> Libros</option>
+                    <option value="11"> Películas</option>
+                    <option value="12"> Música</option>
+                    <option value="17"> Ciencia y Naturaleza</option>
+                    <option value="30"> Tecnología (gadgets)</option>
+                    <option value="18"> Tecnología (ordenadores)</option>
+                </select>
+                <h3> Dificultad</h3>
+                <select id = "dificultad" name = "dificultad">
+                    <option value="easy"> Fácil</option>
+                    <option value="medium"> Media</option>
+                    <option value="hard"> Dificil</option>
+                </select>
+                <figure><button type="submit" class ="boton_periodico" id="boton_trivia"><img src = images/periodico.png alt="Jugar"> </button> </figure>
+                </form>
+
+                <section id="area_juego">
+                <form  id="form_preguntas_trivia"> 
+                    <figure id="area_preguntas">
+                        
+                    </figure>
+                    <figure class = "button" id = "figure_corregir"> <button  id = "end_trivia_button" class = "boton_corregir" ><img src = images/corregir.png alt="Enviar Trivia" ></button></figure>
+                </form>
+
+                </section>
+
+                <section id="area_respuestas">
+
+
+                </section>
+
+                <p> También puede disfrutar de el siguiente vídeos para
+                    mejorar su habilidad con los crucigramas: </p>
                 <figure class = "video">
                 <iframe src ="https://www.youtube.com/embed/gHKAxi9EIso"></iframe>
                 </figure>
@@ -117,7 +158,7 @@
                 <textarea class="form-control" id="correo" name="correo" rows="1" maxlength="200" required></textarea>
                 <br> <br> <label for="cuerpo" class="form-label">Pregúntanos algo</label>
             <textarea class="form-control" placeholder="Máximo 220 caracteres" id="cuerpo" name="cuerpo" rows="3" maxlength="220" required></textarea>
-            <figure class = "link_page"> <button id = "envio_pregunta_button"  type="submit"><img src = images/periodico.png alt="Enviar Pregunta"> </button></figure>    
+            <figure class = "button"> <button id = "envio_pregunta_button" class = "boton_periodico" type="submit"><img src = images/periodico.png alt="Enviar Pregunta"> </button></figure>    
         </form>
         </figure>
             </section>
