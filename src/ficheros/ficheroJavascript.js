@@ -9,6 +9,20 @@ const botonTrivia = document.getElementById('boton_trivia');
 const botonFinTrivia = document.getElementById('end_trivia_button')
 
 
+const linkNoticias = document.getElementById("link_noticias");
+
+const linkEconomia = document.getElementById("link_economia");
+
+const linkEntretenimiento = document.getElementById("link_entretenimiento");
+
+const linkSalud = document.getElementById("link_salud");
+
+const linkCiencia = document.getElementById("link_ciencia");
+
+const linkDeporte = document.getElementById("link_deporte");
+
+const linkTecnologia = document.getElementById("link_tecnologia");
+
 function validarEntrada(event) {
     var inputNumero = document.getElementById('numero');
     var valor = parseInt(inputNumero.value + event.key);
@@ -121,19 +135,6 @@ const paintNews = function(news, id){
 
 
 
-const linkNoticias = document.getElementById("link_noticias");
-
-const linkEconomia = document.getElementById("link_economia");
-
-const linkEntretenimiento = document.getElementById("link_entretenimiento");
-
-const linkSalud = document.getElementById("link_salud");
-
-const linkCiencia = document.getElementById("link_ciencia");
-
-const linkDeporte = document.getElementById("link_deporte");
-
-const linkTecnologia = document.getElementById("link_tecnologia");
 
 
 linkNoticias.addEventListener('click', event => {
